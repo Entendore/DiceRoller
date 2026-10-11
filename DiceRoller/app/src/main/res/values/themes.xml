@@ -1,0 +1,33 @@
+<resources>
+    <style name="Theme.DiceRoller" parent="Theme.Material3.DayNight.NoActionBar" />
+
+    <style name="Theme.DiceRoller.Classic">
+        <item name="colorPrimary">#B23A48</item>
+        <item name="android:windowBackground">@color/classic_bg</item>
+        <item name="android:colorBackground">@color/classic_bg</item>
+        <item name="android:textColorPrimary">@color/classic_text</item>
+        <item name="diceFaceColor">@color/classic_face</item>
+        <item name="dicePipColor">@color/classic_pip</item>
+        <item name="historyCardColor">@color/classic_card</item>
+    </style>
+
+    <style name="Theme.DiceRoller.Dark">
+        <item name="colorPrimary">#4A90D9</item>
+        <item name="android:windowBackground">@color/dark_bg</item>
+        <item name="android:colorBackground">@color/dark_bg</item>
+        <item name="android:textColorPrimary">@color/dark_text</item>
+        <item name="diceFaceColor">@color/dark_face</item>
+        <item name="dicePipColor">@color/dark_pip</item>
+        <item name="historyCardColor">@color/dark_card</item>
+    </style>
+
+    <style name="Theme.DiceRoller.Neon">
+        <item name="colorPrimary">#00F5D4</item>
+        <item name="android:windowBackground">@color/neon_bg</item>
+        <item name="android:colorBackground">@color/neon_bg</item>
+        <item name="android:textColorPrimary">@color/neon_text</item>
+        <item name="diceFaceColor">@color/neon_face</item>
+        <item name="dicePipColor">@color/neon_pip</item>
+        <item name="historyCardColor">@color/neon_card</item>
+    </style>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="diceFaceColor" format="color" />
+    <attr name="dicePipColor" format="color" />
+    <attr name="historyCardColor" format="color" />
+</resources>
