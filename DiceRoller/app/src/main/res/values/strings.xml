@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dice Roller</string>
+    <string name="title">🎲 RPG Dice Roller</string>
+
+    <string name="theme_label">Theme</string>
+    <string name="dice_type_label">Dice type</string>
+    <string name="dice_count_label">Dice count</string>
+    <string name="order_label">Result order</string>
+    <string name="roll_mode_label">Roll mode</string>
+    <string name="fairness_label">Fairness</string>
+    <string name="images_toggle_label">Use real dice images (d6 only)</string>
+
+    <string name="label_normal">%1$d×d%2$d</string>
+    <string name="label_advantage">%1$d×d%2$d (advantage)</string>
+    <string name="label_disadvantage">%1$d×d%2$d (disadvantage)</string>
+    <string name="dropped_suffix">  (dropped: %1$s)</string>
+    <string name="critical_hit">🎉 CRITICAL HIT — natural 20!</string>
+    <string name="critical_fumble">💀 CRITICAL FAIL — natural 1!</string>
+    <string name="total_label">Total: %1$d</string>
+    <string name="rolling">Rolling…</string>
+    <string name="idle_prompt">Tap Roll — or shake the phone!</string>
+
+    <string name="btn_roll">🎲 Roll</string>
+    <string name="btn_roll_notation">Roll Notation</string>
+    <string name="btn_edit_weights">⚖️ Edit weights</string>
+    <string name="btn_test_fairness">🧪 Test fairness</string>
+    <string name="btn_save_preset">💾 Save</string>
+
+    <string name="notation_title">RPG notation</string>
+    <string name="notation_examples">Examples: 2d6+3 · 4d6kh3 · 2d20kl1 · 1d100</string>
+    <string name="notation_hint">e.g. 1d20+5</string>
+    <string name="history_title">Last 5 rolls</string>
+    <string name="presets_title">⚡ Quick Rolls</string>
+    <string name="presets_empty">No saved rolls yet — type notation above and tap 💾 Save</string>
+
+    <string name="weights_title">⚖️ Weights for d%1$d</string>
+    <string name="weights_face">Face %1$d</string>
+    <string name="weights_reset">Reset fair</string>
+    <string name="fairness_title">🧪 Fairness report — d%1$d</string>
+    <string name="fairness_body">Simulated %1$d rolls of d%2$d.\nFair expectation ≈ %3$s%% per face.</string>
+
+    <string name="save_preset_title">Save quick roll</string>
+    <string name="save_preset_hint">Name (e.g. Longsword attack)</string>
+    <string name="preset_needs_notation">Type a valid roll (e.g. 1d20+5) first</string>
+    <string name="delete_preset_title">Delete quick roll</string>
+    <string name="delete_preset_message">Remove \"%1$s\"?</string>
+
+    <string name="toast_invalid_notation">Invalid notation — try 2d6+3, 4d6kh3 or 1d100</string>
+    <string name="toast_preset_saved">Saved \"%1$s\"</string>
+    <string name="toast_weights_saved">d%1$d is now loaded ⚖️</string>
+    <string name="toast_weights_reset">d%1$d reset to fair</string>
+
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_done">Done</string>
+
+    <plurals name="dice_count">
+        <item quantity="one">%d die</item>
+        <item quantity="other">%d dice</item>
+    </plurals>
+
+    <string-array name="order_options">
+        <item>As rolled</item><item>Ascending</item><item>Descending</item>
+    </string-array>
+    <string-array name="mode_options">
+        <item>Normal</item>
+        <item>Advantage (roll 2, keep best)</item>
+        <item>Disadvantage (roll 2, keep worst)</item>
+    </string-array>
+    <string-array name="fairness_options">
+        <item>⚖️ Fair</item><item>🍀 Loaded (high faces)</item>
+        <item>☠️ Cursed (low faces)</item><item>🛠️ Custom weights</item>
+    </string-array>
+</resources>

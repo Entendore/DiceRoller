@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <include domain="file" path="datastore/"/>
+    <include domain="sharedpref" path="dice_prefs.xml"/>
+    <include domain="sharedpref" path="dice_theme.xml"/>
+    <exclude domain="file" path="last_crash.txt"/>
+</full-backup-content>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="classic_bg">#F6F1E7</color>
+    <color name="classic_face">#FFFFFF</color>
+    <color name="classic_pip">#2B2B2B</color>
+    <color name="classic_card">#FFFFFF</color>
+    <color name="classic_text">#2B2B2B</color>
+
+    <color name="dark_bg">#121212</color>
+    <color name="dark_face">#2C2C2C</color>
+    <color name="dark_pip">#F5F5F5</color>
+    <color name="dark_card">#1E1E1E</color>
+    <color name="dark_text">#F5F5F5</color>
+
+    <color name="neon_bg">#0D0221</color>
+    <color name="neon_face">#1A0B3B</color>
+    <color name="neon_pip">#00F5D4</color>
+    <color name="neon_card">#160636</color>
+    <color name="neon_text">#00F5D4</color>
+
+    <color name="crit_green">#2E7D32</color>
+    <color name="crit_red">#C62828</color>
+</resources>
